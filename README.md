@@ -28,7 +28,7 @@ Create a directory named "my-folder"
 ```
 mkdir my-folder
 ```
-![alt text](img/1.png)
+![alt text](<img/Screenshot 2026-03-19 120238.png>)
 
 Remove the directory "my-folder"
 
@@ -37,7 +37,7 @@ Remove the directory "my-folder"
 ```
 rmdir my-folder
 ```
-![alt text](img/2.png)
+![alt text](<img/Screenshot 2026-03-19 120246.png>)
 
 
 Create the file Rose.txt
@@ -46,15 +46,14 @@ Create the file Rose.txt
 ```
 type nul > Rose.txt
 ```
-
-![alt text](img/3.png)
+![alt text](<img/Screenshot 2026-03-19 120254.png>)
 Create the file hello.txt using echo and redirection
 
 ## COMMAND AND OUTPUT
 ```
 echo Hello World > hello.txt
 ```
-![alt text](img/4.png)
+![alt text](<img/Screenshot 2026-03-19 120317.png>)
 
 Copy the file hello.txt into the file hello1.txt
 
@@ -62,8 +61,7 @@ Copy the file hello.txt into the file hello1.txt
 ```
 copy hello.txt hello1.txt
 ```
-
-![alt text](img/5.png)
+![alt text](<img/Screenshot 2026-03-19 120332.png>)
 
 Remove the file hello1.txt
 
@@ -72,15 +70,14 @@ Remove the file hello1.txt
 del hello1.txt
 
 ```
-
-![alt text](img/6.png)
+![alt text](<img/Screenshot 2026-03-19 120339.png>)
 List out the file hello1.txt in the current directory
 
 ## COMMAND AND OUTPUT
 ```
 dir hello1.txt
 ```
-![alt text](img/7.png)
+![alt text](<img/Screenshot 2026-03-19 120349.png>)
 
 List out all the associated file extensions 
 
@@ -88,7 +85,7 @@ List out all the associated file extensions
 ```
 assoc
 ```
-![alt text](img/8.png)
+![alt text](<img/Screenshot 2026-03-19 120405.png>)
 
 Compare the file hello.txt and rose.txt
 
@@ -96,7 +93,7 @@ Compare the file hello.txt and rose.txt
 ```
 fc hello.txt Rose.txt
 ```
-![alt text](img/9.png)
+![alt text](<img/Screenshot 2026-03-19 120412.png>)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
@@ -112,7 +109,7 @@ pause
 
 
 ## OUTPUT
-![alt text](img/10.png)
+![alt text](<img/Screenshot 2026-03-19 120803.png>)
 
 
 Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
@@ -151,9 +148,9 @@ pause
 
 
 ## OUTPUT
+![alt text](<img/Screenshot 2026-03-19 120921.png>)
 
 
-![alt text](img/11.png)
 
 Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
 
@@ -169,7 +166,7 @@ pause
 
 ## OUTPUT
 
-![alt text](img/12.png)
+![alt text](<img/Screenshot 2026-03-19 121006.png>)
 
 
 Write a batch script to check whether a file named sample.txt exists in the current directory. If the file exists, display the message sample.txt exists. Otherwise, display sample.txt does not exist. Pause the script at the end to view the result.
@@ -190,7 +187,7 @@ if exist sample.txt (
 pause
 ```
 ## OUTPUT
-![alt text](img/13.png)
+![alt text](<img/Screenshot 2026-03-19 121119.png>)
 
 Write a batch script that displays a simple menu with three options:
 Say Hello – Displays the message Hello, World!
@@ -198,6 +195,8 @@ Create a File – Creates a file named newfile.txt with the content This is a ne
 Exit – Exits the script with a goodbye message
 The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
 ## CODE
+```
+
 @echo off
 :MENU
 cls
@@ -230,17 +229,18 @@ goto MENU
 echo Goodbye!
 pause
 exit
+```
 
 
 ## OUTPUT1
-![alt text](img/14.png)
+![alt text](<img/Screenshot 2026-03-19 121641.png>)
 
 ## OUTPUT2
-![alt text](img/15.png)
+![alt text](<img/Screenshot 2026-03-19 121652.png>)
 
 ## OUTPUT3
 
-![alt text](img/16.png)
+![alt text](<img/Screenshot 2026-03-19 121701.png>)
 
 
 
